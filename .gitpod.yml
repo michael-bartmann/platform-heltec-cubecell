@@ -1,0 +1,7 @@
+tasks:
+    - name: initialize
+      openMode: split-left
+      command: |
+          pip install platformio
+          cd examples/LoRa/LoRaWAN/LoRaWAN_Interrupt 
+          pio run -e cubecell_board
